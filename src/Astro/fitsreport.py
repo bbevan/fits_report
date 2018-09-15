@@ -25,7 +25,7 @@ class MyClass(object):
     def fitsprint(self,mylist):
     
         for x in mylist:
-            print x
+            print(x)
 
             # end
 
@@ -45,9 +45,9 @@ class MyClass(object):
     def printlimheaderinfo(self):
     
         for x in fitslist():
-            print x
+            print(x)
             for y in limheaderinfo(x):
-                print y
+                print(y)
                 print("\n")
 
                 # end
